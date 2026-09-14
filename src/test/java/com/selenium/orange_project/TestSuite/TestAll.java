@@ -125,6 +125,36 @@ public class TestAll extends BaseActions {
 		adminpage = dashboard.NavigateToAdminTab();
 		adminpage.AddEssUser();
 	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
+	@Test(priority = 6)
+	public void Role_Based_Login() {
+		adminpage = dashboard.NavigateToAdminTab();
+		adminpage.AddEssUser();
+	}
 	
 	@Test(priority = 6)
 	public void Role_Based_Login() {
