@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<parameter name="" value=""></parameter>
+ <test name="Test">
+	 <groups>
+		 <run>
+			 <include name=""></include>
+			 <exclude name=""></exclude>
+		 </run>
+	 </groups>
+<classes>
+	<class name="com.selenium.orange_project.TestSuite.TestAll"></class>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

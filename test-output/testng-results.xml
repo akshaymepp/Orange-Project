@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-21T17:06:33 IST" name="Suite" finished-at="2026-02-21T17:08:14 IST" duration-ms="101052">
+    <groups>
+      <group name="regression">
+        <method signature="TestAll.Login_With_Session()[pri:1, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Login_With_Session" class="com.selenium.orange_project.TestSuite.TestAll"/>
+        <method signature="TestAll.Invalid_login()[pri:2, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Invalid_login" class="com.selenium.orange_project.TestSuite.TestAll"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestAll.Login_With_Session()[pri:1, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Login_With_Session" class="com.selenium.orange_project.TestSuite.TestAll"/>
+        <method signature="TestAll.Invalid_login()[pri:2, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Invalid_login" class="com.selenium.orange_project.TestSuite.TestAll"/>
+        <method signature="TestAll.Add_Employee_with_unique_id_Validation()[pri:3, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Add_Employee_with_unique_id_Validation" class="com.selenium.orange_project.TestSuite.TestAll"/>
+      </group> <!-- smoke -->
+      <group name="admin">
+        <method signature="TestAll.Add_Employee_with_unique_id_Validation()[pri:3, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" name="Add_Employee_with_unique_id_Validation" class="com.selenium.orange_project.TestSuite.TestAll"/>
+      </group> <!-- admin -->
+    </groups>
+    <test started-at="2026-02-21T17:06:33 IST" name="Test" finished-at="2026-02-21T17:08:14 IST" duration-ms="101052">
+      <class name="com.selenium.orange_project.TestSuite.TestAll">
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:06:33 IST" name="invokeSetup" finished-at="2026-02-21T17:06:44 IST" duration-ms="11416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Login_With_Session() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Login_With_Session()[pri:1, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:06:44 IST" name="Login_With_Session" finished-at="2026-02-21T17:06:51 IST" duration-ms="6996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Session -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:06:51 IST" name="TearDown" finished-at="2026-02-21T17:06:52 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:06:52 IST" name="invokeSetup" finished-at="2026-02-21T17:06:57 IST" duration-ms="5215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Invalid_login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Invalid_login()[pri:2, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:06:57 IST" name="Invalid_login" finished-at="2026-02-21T17:07:10 IST" duration-ms="13479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:10 IST" name="TearDown" finished-at="2026-02-21T17:07:10 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:10 IST" name="invokeSetup" finished-at="2026-02-21T17:07:16 IST" duration-ms="6000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Add_Employee_with_unique_id_Validation() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Add_Employee_with_unique_id_Validation()[pri:3, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:16 IST" name="Add_Employee_with_unique_id_Validation" finished-at="2026-02-21T17:07:27 IST" duration-ms="10234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Employee_with_unique_id_Validation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:27 IST" name="TearDown" finished-at="2026-02-21T17:07:27 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:27 IST" name="invokeSetup" finished-at="2026-02-21T17:07:33 IST" duration-ms="6383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Search_Employee() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Search_Employee()[pri:4, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:33 IST" name="Search_Employee" finished-at="2026-02-21T17:07:41 IST" duration-ms="7808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Employee -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:41 IST" name="TearDown" finished-at="2026-02-21T17:07:41 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:41 IST" name="invokeSetup" finished-at="2026-02-21T17:07:47 IST" duration-ms="5991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Employee_Count()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Employee_Count()[pri:5, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:07:47 IST" name="Employee_Count" finished-at="2026-02-21T17:08:00 IST" duration-ms="13083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_Count -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:08:00 IST" name="TearDown" finished-at="2026-02-21T17:08:00 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="invokeSetup(java.lang.reflect.Method)[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:08:00 IST" name="invokeSetup" finished-at="2026-02-21T17:08:07 IST" duration-ms="6581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.orange_project.TestSuite.TestAll.Role_Based_Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeSetup -->
+        <test-method signature="Role_Based_Login()[pri:6, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:08:07 IST" name="Role_Based_Login" finished-at="2026-02-21T17:08:14 IST" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Role_Based_Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.selenium.orange_project.TestSuite.TestAll@644baf4a]" started-at="2026-02-21T17:08:14 IST" name="TearDown" finished-at="2026-02-21T17:08:14 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.orange_project.TestSuite.TestAll -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
